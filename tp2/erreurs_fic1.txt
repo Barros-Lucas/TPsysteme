@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "wcpsort.py", line 14, in <module>
+    os.execlp("wcp", "wcp","sort","-k",sys.argv[1],arg)
+  File "/usr/lib/python3.5/os.py", line 598, in execlp
+    execvp(file, args)
+  File "/usr/lib/python3.5/os.py", line 615, in execvp
+    _execvpe(file, args)
+  File "/usr/lib/python3.5/os.py", line 660, in _execvpe
+    raise last_exc.with_traceback(tb)
+  File "/usr/lib/python3.5/os.py", line 650, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory

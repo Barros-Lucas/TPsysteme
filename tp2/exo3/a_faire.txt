@@ -1,0 +1,12 @@
+1 prog -> (cllient,serveur)
+client imput nom fic -> send to serveur
+
+server -> exist et accessible lecture -> send contenu
+	else -> msg erreur
+
+client -> affiche reponse et wait imput
+
+qui = exit client
+
+
+info prof: fork pour client et communication via pipe
